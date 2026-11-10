@@ -414,6 +414,7 @@ em { font-style: italic; }
   border: 1px solid var(--line-light);
   border-radius: var(--r-lg);
   padding: 2rem;
+  min-width: 0; /* let the grid item shrink so .table-scroll scrolls internally, not the page */
 }
 .pricing-block-feature {
   border: 2px solid var(--aqua);
