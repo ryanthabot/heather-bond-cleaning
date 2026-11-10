@@ -15,7 +15,7 @@
   --sea:        #2E514C;   /* Sea Slate — secondary text/buttons */
 
   /* Neutrals */
-  --gray:       #8CA09C;   /* borders, muted text */
+  --gray:       #5A7370;   /* borders, muted text (WCAG AA on white) */
   --ink:        #14302E;   /* body text on white */
   --mint:       #E9F4F1;   /* subtle section backgrounds */
   --line-dark:  rgba(247, 250, 249, 0.14);
@@ -91,7 +91,7 @@ h1, h2, h3 {
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #1FA396; /* aqua darkened for contrast on white */
+  color: #0F766E; /* aqua darkened for contrast on white */
   margin-bottom: 1rem;
 }
 .eyebrow-light { color: var(--aqua); }
@@ -194,7 +194,7 @@ em { font-style: italic; }
   font-weight: 600;
   letter-spacing: 0.01em;
 }
-.logo-text em { color: var(--aqua); font-weight: 500; }
+.logo-text em { color: #4FD1C5; font-weight: 500; } /* lighter aqua: 5.2:1 on the translucent header, passes WCAG AA */
 
 .nav-links {
   display: flex;
@@ -349,7 +349,7 @@ em { font-style: italic; }
   padding-bottom: 2px;
   transition: color 0.2s ease;
 }
-.link-arrow:hover { color: #1FA396; }
+.link-arrow:hover { color: #0F766E; }
 
 /* ============================================================
    WHAT'S COVERED — dark break
@@ -473,7 +473,7 @@ em { font-style: italic; }
   display: block;
   font-size: 0.65rem;
   letter-spacing: 0.06em;
-  color: #1FA396;
+  color: #0F766E;
   font-weight: 600;
 }
 .price-table td {
@@ -567,7 +567,7 @@ em { font-style: italic; }
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #1FA396;
+  color: #0F766E;
 }
 .audience-body p { color: var(--sea); font-size: 0.98rem; }
 
@@ -651,7 +651,7 @@ em { font-style: italic; }
   flex-direction: column;
   gap: 1rem;
 }
-.stars { color: #1FA396; letter-spacing: 0.15em; font-size: 1.05rem; }
+.stars { color: #0F766E; letter-spacing: 0.15em; font-size: 1.05rem; }
 .testimonial blockquote {
   font-family: var(--font-display);
   font-size: 1.3rem;
@@ -708,7 +708,7 @@ em { font-style: italic; }
 }
 .location-info .address { color: var(--sea); font-size: 1.02rem; line-height: 1.5; }
 .location-info p { color: var(--sea); font-size: 0.98rem; }
-.location-info em { color: #1FA396; font-style: normal; font-weight: 600; }
+.location-info em { color: #0F766E; font-style: normal; font-weight: 600; }
 
 .hours { list-style: none; }
 .hours li {
@@ -781,7 +781,7 @@ em { font-style: italic; }
   margin-bottom: 0.4rem;
   color: var(--sea);
 }
-.req { color: #1FA396; }
+.req { color: #0F766E; }
 .form-row input,
 .form-row select,
 .form-row textarea {

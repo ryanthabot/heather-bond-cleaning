@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ryanthabot.github.io/heather-bond-cleaning/sitemap.xml
