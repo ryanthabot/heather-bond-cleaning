@@ -108,14 +108,14 @@
         when ? `Preferred times: ${when}` : null,
         message ? `\nMessage:\n${message}` : null,
         "",
-        "— Sent from heatherbondcleaning.com",
+        "— Sent from the Heather Bond House Cleaning website",
       ]
         .filter(Boolean)
         .join("\n");
 
       // Open the visitor's email client with a prefilled message.
-      // Replace hello@heatherbondcleaning.com with your real inbox address.
-      const mailto = `mailto:hello@heatherbondcleaning.com?subject=${encodeURIComponent(
+      // Sent to Heather's inbox — swap to a domain email when the custom domain + Resend are live.
+      const mailto = `mailto:heatherbond2024@hotmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(body)}`;
 

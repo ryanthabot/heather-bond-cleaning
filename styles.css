@@ -485,6 +485,18 @@ em { font-style: italic; }
 .price-table td:first-child { color: var(--sea); }
 .price-table tr:last-child td { border-bottom: none; }
 
+/* Free-quote note used in place of a table where pricing is quoted per home */
+.quote-note {
+  color: var(--sea);
+  font-size: 1.02rem;
+  line-height: 1.6;
+  padding: 1rem 1.25rem;
+  background: var(--mint);
+  border-radius: var(--r-md);
+  margin-bottom: 1.5rem;
+}
+.quote-note strong { font-weight: 600; color: var(--ink); }
+
 /* Promotions panel */
 .promo-panel {
   background: linear-gradient(135deg, var(--aqua) 0%, #26a79b 100%);
