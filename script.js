@@ -1,5 +1,5 @@
 /* ============================================================
-   Heather Bond House Cleaning — interactions
+   Heather's Cleaning Services — interactions
    - Mobile nav toggle
    - Auto-close mobile nav after clicking a link
    - Active nav-link highlighting on scroll (scrollspy)
@@ -108,7 +108,7 @@
         when ? `Preferred times: ${when}` : null,
         message ? `\nMessage:\n${message}` : null,
         "",
-        "— Sent from the Heather Bond House Cleaning website",
+        "— Sent from the Heather's Cleaning Services website",
       ]
         .filter(Boolean)
         .join("\n");
